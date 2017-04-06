@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
 	config.vm.box = "Win7IE9-winrm"
-	config.vm.box_url = "https://tnyila.dm2304.livefilestore.com/y4mGrNzBW0Y6xzrkBOeP_svqUj8QN3p4FnTUY2W82sA3uu7-dYgARS5siOpP2Ov2WSDyG8d1UKYozN5aHp3zq5gQ9IyHEbe_rbGngpWSWS22SiF31ey7ZFMGyO7KR4piT-ABl56tKRuzzxYs_bOQdn_xyaN7iOrzXItXsGwSNUCUQMvQmkyFi8SAkZvay312Xp4/package.box?download&psid=1"
+	config.vm.box_url = "https://tnyila.dm2304.livefilestore.com/y4mWReseCTB-O6-aQQhi-2TTKB5gMnfEWFUKc1bHcxujF9YDd0HVrYs9g_LUxL5pCl19hac4hdr655Nw4REswhy-HMEDWIZp_hVuHLSSV03Uj_mrwZvvJSVpDUrzv8SrEdwPaenCLdbw_DGQ6R70UTj5rb3TiE-XB6bFBcddTCagBbeHV-Fe3ZqRxZtev7iu2ej/package.box?download&psid=1"
 
 	config.vm.guest = :windows
 	config.vm.communicator = "winrm"
