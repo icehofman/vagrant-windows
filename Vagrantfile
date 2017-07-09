@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-	config.vm.box = "icehofman/windows-7-virtualbox"
-	config.vm.box_version = "7"
+    config.vm.box = "icehofman/windows-7-virtualbox"
+    config.vm.box_version = "7"
     config.vm.communicator = "winrm"
 
     # Admin user name and password
